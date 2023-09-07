@@ -2,7 +2,7 @@
 
 	function conexion(){
 
-	$host = "containers-us-west-206.railway.app";
+	$host = "host=containers-us-west-206.railway.app";
 	$port = "port=5548";
 	$dbname = "dbname=railway";
 	$user = "user=postgres";
