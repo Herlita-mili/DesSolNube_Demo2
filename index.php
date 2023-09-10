@@ -33,8 +33,8 @@
       <p class="lead">Puede registrar sus datos con toda seguridad</p>
     </div>
 
-    <div class="table table-dark table-striped-columns">
-      <div class="table table-dark table-striped-columns">
+    <div class="container">
+      <div class="card">
         <div class="card-body">
           <form autocomplete="off" action="index-post.php" method="post">
             <div class="row">
@@ -71,7 +71,7 @@
                 </div>
               </div>
             </div>
-            <input type="submit" class="btn btn-success" value="Registrar">
+            <input type="submit" class="btn btn-secondary btn-lg" value="Registrar">
           </form>
         </div>
       </div>
