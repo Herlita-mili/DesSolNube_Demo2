@@ -2,13 +2,13 @@
 include("conexion.php");
 $con = conexion();
 
-$doc = $_POST["doc"];
-$nom = $_POST["nom"];
-$ape = $_POST["ape"];
-$dir = $_POST["dir"];
-$cel = $_POST["cel"];
+$doc = $_POST["nom"];
+$nom = $_POST["ape"];
+$ape = $_POST["core"];
+$dir = $_POST["con"];
+$cel = $_POST["rep"];
 
-$sql = "insert into persona values(default,'$doc','$nom','$ape','$dir','$cel')";
+$sql = "insert into persona values(default,'$nom','$ape','$core','$con','$rep')";
 pg_query($con, $sql);
 
 header("location:index.php");

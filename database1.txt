@@ -1,10 +1,10 @@
 create table persona
 (
 	idpersona serial primary key,
-	documento varchar(8),
-	nombre varchar(30),
-	apellido varchar(30),
-	direccion varchar(50),
-	celular varchar(9)
+	nombres varchar(50),
+	apellidos varchar(50),
+	correo varchar(50),
+	contraseña varchar(9),
+	repetir varchar(9)
 
 )
